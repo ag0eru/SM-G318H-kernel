@@ -33,12 +33,12 @@
 #include <string.h>
 #include <unistd.h>
 
-ifndef EM_METAG
+#ifndef EM_METAG
 /* Remove this when these make it to the standard system elf.h. */
-define EM_METAG      174
-define R_METAG_ADDR32                   2
-define R_METAG_NONE                     3
-endif
+#define EM_METAG      174
+#define R_METAG_ADDR32                   2
+#define R_METAG_NONE                     3
+#endif
 
 static int fd_map;	/* File descriptor for file being modified. */
 static int mmap_failed; /* Boolean flag. */
