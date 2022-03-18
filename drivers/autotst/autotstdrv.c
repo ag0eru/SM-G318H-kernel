@@ -20,8 +20,8 @@
 
 #include <asm/io.h>
 #include <asm/uaccess.h>
-#include <asm/board.h>
-#include <asm/gpio.h>
+#include <mach/board.h>
+#include <mach/gpio.h>
 //
 #include "autotstdrv.h"
 #include "dispc.h"
