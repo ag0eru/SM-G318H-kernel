@@ -15,7 +15,7 @@
 #include <linux/workqueue.h>
 #include <linux/debugfs.h>
 #include <linux/seq_file.h>
-#include <asm/system.h>
+#include <mash/system.h>
 #include <linux/reboot.h>
 #ifdef CONFIG_CPU_FREQ_LIMIT_USERSPACE
 #include <linux/cpufreq.h>
