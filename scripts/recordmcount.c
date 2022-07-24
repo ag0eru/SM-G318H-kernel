@@ -38,7 +38,7 @@
 #define EM_METAG      174
 #endif
 #ifndef R_METAG_ADDR32
-#define R_METAG_ADDR32 2
+#define R_METAG_ADDR32 			 2
 #endif
 #ifndef R_METAG_NONE
 #define R_METAG_NONE                     3
